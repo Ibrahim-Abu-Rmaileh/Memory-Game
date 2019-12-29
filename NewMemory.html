@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/NewMemory.css">
+    <link rel="stylesheet" href="./css/hover.css">
+
+</head>
+
+<body>
+
+    <div class="GameContainer">
+
+        <div class="leftSide">
+            <h1>Memory Game</h1>
+
+            <div class="dificulty">
+                <button id="easy" class="hvr-grow">Easy</button>
+                <button id="moderate" class="hvr-grow">Moderate</button>
+                <button id="hard" class="hvr-grow">Hard</button>
+            </div>
+
+            <div class="NG">
+                <button id="newGame" class="hvr-float">New Game</button>
+            </div>
+
+            <h2 id="moves" style="margin-left: 10px;"></h2>
+            <h2 id="matches" style="margin-left: 10px;"></h2>
+        </div>
+
+        <div id="table" class="table"></div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/NewMemory.js"></script>
+</body>
+
+</html>

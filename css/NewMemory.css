@@ -1,0 +1,129 @@
+
+
+*{
+    font-family: cursive;
+    color: rgb(1, 14, 1);
+    font-weight: bolder;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url('./cartoon.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.GameContainer{
+    display: flex;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    
+}
+
+.dificulty,.NG{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin: 20px;
+    
+}
+
+
+
+button{
+    margin: 5px;
+}
+
+
+
+#table {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    width: 80vw;
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2px; */
+}
+
+
+.card {
+    width: 16vw;
+    height: 17vh;
+    border: rgb(15, 66, 5) 2px solid;
+    margin: 2px;
+    background-color: rgb(46, 240, 149);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    opacity:0.8;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+
+img{
+    width: 90%; 
+    height: 90%;
+    visibility: hidden;
+    opacity: 1 !important;
+  }
+
+
+.show{
+    visibility: visible;
+    transition-delay: 0.2s;
+    opacity: 1;
+  
+}
+.hide{
+     visibility: hidden;
+    
+}
+.showalways{
+    
+   visibility: visible;  
+   
+}
+
+
+button{
+    background-color: rgb(46, 240, 149);
+    border: 3px rgb(46, 240, 149) solid;
+    border-radius: 10px;
+    border-style: ridge;
+    cursor: pointer;
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+}
