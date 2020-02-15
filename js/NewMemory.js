@@ -29,7 +29,7 @@ class MemoryGame {
             document.querySelector('#table').appendChild(row);
             for (let j = 0; j < this.col; j++) {
                 var card = document.createElement('div');
-                card.setAttribute('class', 'card hvr-grow');
+                card.setAttribute('class', 'card hvr-shrink');
                 card.setAttribute('id', `${((i * this.col) + j)}`);
                 row.appendChild(card);
 
